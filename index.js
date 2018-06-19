@@ -1,4 +1,4 @@
 let customerName = "bob";
 function upperCaseCustomerName() {
-  return customerName.capitalize;
+  return String.toUpperCase(customerName);
 }
